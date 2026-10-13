@@ -1,0 +1,15 @@
+node_modules/
+.expo/
+dist/
+build/
+.next/
+coverage/
+.env
+.env.*
+!.env.example
+*.log
+*.tsbuildinfo
+android/.gradle/
+android/build/
+ios/Pods/
+Thumbs.db
