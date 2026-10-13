@@ -1,0 +1,14 @@
+{
+  "name": "delivery-gestor",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@12.11.2",
+  "engines": {
+    "node": ">=22 <25"
+  },
+  "scripts": {
+    "dev:api": "pnpm --filter @delivery/api start:dev",
+    "dev:mobile": "pnpm --filter @delivery/mobile start",
+    "dev:admin": "pnpm --filter @delivery/admin dev"
+  }
+}
