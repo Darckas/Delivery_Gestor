@@ -9,6 +9,12 @@
   "scripts": {
     "dev:api": "pnpm --filter @delivery/api start:dev",
     "dev:mobile": "pnpm --filter @delivery/mobile start",
-    "dev:admin": "pnpm --filter @delivery/admin dev"
+    "dev:admin": "pnpm --filter @delivery/admin dev",
+    "db:start": "pnpm exec supabase start",
+    "db:stop": "pnpm exec supabase stop",
+    "db:reset": "pnpm exec supabase db reset"
+  },
+  "devDependencies": {
+    "supabase": "2.120.0"
   }
 }
